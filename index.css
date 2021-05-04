@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400&display=swap');
+body{
+    background-color: #4581F7;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    transition: background-color 1s ease;
+}
+.info-button{
+    margin-top: 2%;
+    color: white;
+    font-weight: bold;
+    border-color: white;
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px 40px 10px 40px;
+    background-color: #4581F7;
+    border-style: solid;
+    transition-duration: 0.6s;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    border-width: 2px 2px 2px 2px;
+} 
+.info-button:hover{
+    background-color: white;
+    color:#4581F7 ;
+    transition-duration: 0.5s;
+}
+.intro{
+    margin-top:15%;
+    margin-left: 10%;
+}
+@media (min-width: 500px) {
+    .intro{
+        margin-right: 10%;
+        margin-top:15%;
+        margin-left: 10%;
+        background-image: url('./assets/workflow.png');
+        background-position: right;
+        background-size: 20%;
+        background-repeat: no-repeat;
+}
+}
+@media (min-width:1100px) {
+    .qualifications{
+        background-image: url('./assets/techno-bg2.png');
+        background-position: center;
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        border-radius: 1%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+        color: black;
+        background-color: white;
+    }    
+}
+.qualifications{
+        /* background-image: url('./assets/techno-bg.png');
+        background-position: center;
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top; */
+        border-radius: 1%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+        color: black;
+        background-color: white;
+}
+
+.card-text{
+    color: #939bc1;
+}
+
+.div-heading{
+        padding-top: 10%;
+        color: #4581F7;
+}
+.techno{
+    padding-top: 5%;
+    
+}
+.info-card{
+    margin: 5%;
+    border-color: white;
+}
+.info-card:hover{
+    box-shadow: 0px -10px 10px 0px rgb(0 0 0 / 7%);
+    transition-duration: 0.3s;
+}
+.internship-experiences{
+    margin-top: 10%;
+}
+.tech{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10%;
+}
+.time{
+    flex: 3;
+    padding: 5%;
+}
+@media (max-width: 800px) {
+     .tech .time{
+      flex: 100%;
+    }
+    .intern-head{
+      text-align: center;
+
+    }
+  }
+.intern-head{
+    margin: auto;
+    font-size: 2.5rem;
+    background-image:url('./assets/techno-bg.png');
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+.timeline {
+    position: relative;
+    padding-left: 4rem;
+    margin: 0 0 0 30px;
+    color: black;
+}
+.timeline:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    background: #9b9fd4;
+}
+.timeline .timeline-container {
+    position: relative;
+    margin-bottom: 2.5rem;
+    border-radius: 2%;
+}
+.timeline .timeline-container .timeline-icon {
+    position: absolute;
+    left: -88px;
+    top: 4px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 2rem;
+    background: white;
+}
+.timeline .timeline-container .timeline-icon img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.timeline .timeline-container .timeline-body {
+    background: white;
+    border-radius: 5px 5px 5px 5px;
+    padding: 20px 20px 15px;
+    box-shadow: 1px 3px 9px rgba(0, 0, 0, .1);
+
+}
+.timeline .timeline-container .timeline-body:before {
+    content: '';
+    background: inherit;
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    left: -10px;
+    transform: rotate(45deg);
+    border-radius: 0 0 0 2px;
+}
+.timeline .timeline-container .timeline-body .timeline-title {
+    margin-bottom: 1.4rem;
+}
+.timeline .timeline-container .timeline-body .timeline-title .badge {
+    background: #4581F7;
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.timeline .timeline-container .timeline-body .timeline-subtitle {
+    font-weight: 500;
+    font-style: italic;
+    opacity: 0.6;
+    margin-top: 10px;
+    font-size: 11px;
+}
+.timeline .timeline-container.primary .badge, .timeline .timeline-container.primary .timeline-icon {
+    background: #F4774E !important;
+}
+.SMT{
+    background: #91B60F !important;
+}
+.timeline .timeline-container.danger .badge, .timeline .timeline-container.danger .timeline-icon {
+    background: #FECC11 !important;
+}
+.goodera-image{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    background-color:#ffffff ;
+
+}
+.connekt-image{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    background-color:#FECC11 ;
+
+}
+.smt-image{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    background-color: white;
+}
+.author {
+    font-family: inherit;
+    padding: 3em;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+.author a:link, .author a:visited {
+    color: white;
+}
+.author a:link:hover, .author a:visited:hover {
+    text-decoration: none;
+}
+.author .btn:link, .author .btn:visited {
+    margin-top: 1em;
+    text-decoration: none;
+    display: inline-block;
+    font-family: inherit;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: black;
+    padding: 1.5em 2rem;
+    border-radius: 1em;
+    transition: 0.5s all;
+}
+.author .btn:link:hover, .author .btn:visited:hover, .author .btn:link:focus, .author .btn:visited:focus, .author .btn:link:active, .author .btn:visited:active {
+    background-color: #1a1a1a;
+}
+.projects{
+    margin: auto;
+    border-radius: 2%;
+    background-color: white;
+    color: #4581F7;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10%;
+
+}
+@media (min-width: 968px) {
+    .projects{
+    border-radius: 20px 20px 20px 20px;
+
+        background-image: url('./assets/clip1-img.png');
+        background-position:right;
+        background-size: 400px;
+        background-repeat: no-repeat;
+        margin: auto;
+        background-color: white;
+        color: #4581F7;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 5%;
+    }
+
+}
+.links{
+    
+
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: #4581F7;
+}
+.new-project{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4581F7;
+}
+.github-button{
+    font-size: 1rem;
+    margin-top: 2%;
+    color: white;
+    font-weight: bold;
+    border-color: #4581F7;
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px 40px 10px 40px;
+    background-color: #4581F7;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    transition-duration: 0.5s;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+.github-button:hover{
+    background-color: white;
+    color:#4581F7 ;
+    transition-duration: 0.5s;
+    border-color: #4581F7;
+}
+.connect-me{
+    border-radius: 20px 20px 20px 20px; 
+    margin: auto;
+    padding-top: 2%;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    padding-bottom: 2%;
+    margin-bottom: 10%;
+}
+.js-slidein {
+    opacity: 0;
+    transform: translateY(100px);
+    -webkit-transition: all 600ms ease-in-out;
+    transition: all 600ms ease-in-out;
+  }
+  
+  .js-slidein-visible {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+  }
+  /* .side-js-slidein {
+    opacity: 0;
+    transform: translateX(100px);
+    -webkit-transition: all 600ms ease-in-out;
+    transition: all 600ms ease-in-out;
+  }
+  
+  .side-js-slidein-visible {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+  }
+
+   */
+.footers{
+    width: 100%;
+    margin-bottom: 10%;
+}
+.contact{
+    background-color: #F2F2F2;
+    color: #4581F7;
+    border-radius: 30px 30px 30px 30px;
+    padding:1%;
+}
+.contact a{
+    color: #4581F7;
+    padding: auto;
+    cursor: pointer;
+
+}
+.round{
+    border-radius: 50%;
+    background-color: white;
+    width: 25px;
+    margin-right: 1%;
+}
+@media (min-width:968px){
+    .contact div{
+        margin: auto;
+    }
+}
+
+
+.navigate{
+    padding-left: 15%;
+    margin: auto;
+}
+.navigate a{
+    color :white;
+    font-size: 0.9rem;
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+}
+.divi{
+    transition: all .2s ease-in-out;
+}
+ .divi:hover{
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+
+}
+.linkedin a{
+    color: #0A66C2;
+    transition: background-color 0.3s ease;
+
+}
+.linkedin a:hover{
+    color: white;
+    background-color: #0A66C2;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+
+}
+.github a{  
+    color: black;
+    transition: background-color 0.3s ease;
+
+}
+.github a:hover{
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+
+}
+.gmail img{
+    width:100%;
+    height: 100%;
+}
+
+.medium a{
+    color: #1A898F;
+    transition: background-color 0.3s ease;
+
+}
+.medium a:hover{
+    background-color: #1A898F;
+    color: white;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+
+}
+@media (max-width:968px) {
+    .navigate{
+        display: none;
+    }
+    .contact{
+        width: 80%;
+        height: 10%;
+        margin: auto;
+    }
+    .contact .col-md-2{
+        width: 25%;
+    }
+}
